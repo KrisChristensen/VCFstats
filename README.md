@@ -14,16 +14,16 @@ A script to identify some statistics about the vcf file for all individuals.  Th
 <!-- requirements -->
 ## Requirements
 
-This script has been tested with Python 2.7 and 3 and should work with either (except with compressed files, it only works for Python 2.7 for now).
-The script requires a vcf file.  The vcf file can be compressed with gzip (if using Python 2.7).  The depth field in the vcf file is required and the position of the field needs to be specified in the options.
+This script has been tested with Python 3 and should work with compressed files.
+The script requires a vcf file.  The vcf file can be compressed with gzip.  The depth field in the vcf file is required and the position of the field needs to be specified in the options.
 
 <!-- usage -->
 ## Usage
 
 Find Statistics:
-python VCF.stats.v1.0.py -vcf file.vcf -depth 3 > stats.txt
+python VCF.stats.v1.1.py -vcf file.vcf -depth 3 > stats.txt
 
-To see the usage and get futher information: python VCF.stats.v1.0.py -h
+To see the usage and get futher information: python VCF.stats.v1.1.py -h
 
 
 <!-- license -->
